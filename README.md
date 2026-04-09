@@ -4,13 +4,13 @@ A basic general-purpose project that simulates secure communication system betwe
 
 ## Files
 
-- 'sender.py'
+- 'sender.py':
   Creates a dictionary with info, generates an HMAC signature, and writes the packet.
 
-- 'receiver.py'
+- 'receiver.py':
   Verifies the integrity of the HMAC, decrypts the packet, and checks for replay attacks referring to already used noncesH.
 
-- 'attacker.py'
+- 'attacker.py':
   Simulates an makeshift attacker by tampering with packet data.
 
 ## Concepts Used
