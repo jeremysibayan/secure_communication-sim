@@ -8,7 +8,7 @@ with open('packet.json', 'r') as file:
 encrypted_data = packet['encrypted_data']
 
 # tamper HAHAHAHAHAH
-encrypted_data = encrypted_data + "HAHAHAHA, I tampered your data!"
+encrypted_data = encrypted_data + "LMAO, I changed ur stuf!"
 
 # update packet with the new tampered data
 packet['encrypted_data'] = encrypted_data
